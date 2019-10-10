@@ -1,0 +1,6 @@
+framework module Pods_Sweat_App {
+  umbrella header "Pods-Sweat App-umbrella.h"
+
+  export *
+  module * { export * }
+}

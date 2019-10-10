@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18043F52234EE5B500549F09 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18043F50234EE5B500549F09 /* UIViewX.swift */; };
+		18043F53234EE5B500549F09 /* trainer-programs.json in Resources */ = {isa = PBXBuildFile; fileRef = 18043F51234EE5B500549F09 /* trainer-programs.json */; };
+		18043F57234EE5C000549F09 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18043F54234EE5C000549F09 /* WorkoutModel.swift */; };
+		18043F58234EE5C000549F09 /* WorkoutTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18043F55234EE5C000549F09 /* WorkoutTVC.swift */; };
+		18043F59234EE5C000549F09 /* EquipmentCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18043F56234EE5C000549F09 /* EquipmentCVC.swift */; };
+		18043F5D234EE5CE00549F09 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18043F5A234EE5CE00549F09 /* OpenSans-Bold.ttf */; };
+		18043F5E234EE5CE00549F09 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18043F5B234EE5CE00549F09 /* Montserrat-Bold.ttf */; };
+		18043F5F234EE5CE00549F09 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18043F5C234EE5CE00549F09 /* OpenSans-Semibold.ttf */; };
 		18C999FB234EE52C003EB4B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C999FA234EE52C003EB4B0 /* AppDelegate.swift */; };
 		18C999FD234EE52C003EB4B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C999FC234EE52C003EB4B0 /* ViewController.swift */; };
 		18C99A00234EE52C003EB4B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C999FE234EE52C003EB4B0 /* Main.storyboard */; };
 		18C99A02234EE52D003EB4B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C99A01234EE52D003EB4B0 /* Assets.xcassets */; };
 		18C99A05234EE52D003EB4B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C99A03234EE52D003EB4B0 /* LaunchScreen.storyboard */; };
+		BFC67D09657B0B4757EDE320 /* Pods_Sweat_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFC6FE04FC948E706A591BA /* Pods_Sweat_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18043F50234EE5B500549F09 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		18043F51234EE5B500549F09 /* trainer-programs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "trainer-programs.json"; sourceTree = "<group>"; };
+		18043F54234EE5C000549F09 /* WorkoutModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		18043F55234EE5C000549F09 /* WorkoutTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTVC.swift; sourceTree = "<group>"; };
+		18043F56234EE5C000549F09 /* EquipmentCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquipmentCVC.swift; sourceTree = "<group>"; };
+		18043F5A234EE5CE00549F09 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		18043F5B234EE5CE00549F09 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		18043F5C234EE5CE00549F09 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		18C999F7234EE52C003EB4B0 /* Sweat App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sweat App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C999FA234EE52C003EB4B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C999FC234EE52C003EB4B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,9 @@
 		18C99A01234EE52D003EB4B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C99A04234EE52D003EB4B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C99A06234EE52D003EB4B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0017CFA249C75D1F41A54F /* Pods-Sweat App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweat App.debug.xcconfig"; path = "Target Support Files/Pods-Sweat App/Pods-Sweat App.debug.xcconfig"; sourceTree = "<group>"; };
+		E956F9B5351E1F06309B98BE /* Pods-Sweat App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweat App.release.xcconfig"; path = "Target Support Files/Pods-Sweat App/Pods-Sweat App.release.xcconfig"; sourceTree = "<group>"; };
+		FFFC6FE04FC948E706A591BA /* Pods_Sweat_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sweat_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC67D09657B0B4757EDE320 /* Pods_Sweat_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				18C999F9234EE52C003EB4B0 /* Sweat App */,
 				18C999F8234EE52C003EB4B0 /* Products */,
+				7B2C1024F2221202101572A9 /* Pods */,
+				ABEC25083547DA568ED304DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,40 @@
 		18C999F9234EE52C003EB4B0 /* Sweat App */ = {
 			isa = PBXGroup;
 			children = (
+				18043F5B234EE5CE00549F09 /* Montserrat-Bold.ttf */,
+				18043F5A234EE5CE00549F09 /* OpenSans-Bold.ttf */,
+				18043F5C234EE5CE00549F09 /* OpenSans-Semibold.ttf */,
 				18C999FA234EE52C003EB4B0 /* AppDelegate.swift */,
 				18C999FC234EE52C003EB4B0 /* ViewController.swift */,
+				18043F51234EE5B500549F09 /* trainer-programs.json */,
+				18043F50234EE5B500549F09 /* UIViewX.swift */,
+				18043F56234EE5C000549F09 /* EquipmentCVC.swift */,
+				18043F54234EE5C000549F09 /* WorkoutModel.swift */,
+				18043F55234EE5C000549F09 /* WorkoutTVC.swift */,
 				18C999FE234EE52C003EB4B0 /* Main.storyboard */,
 				18C99A01234EE52D003EB4B0 /* Assets.xcassets */,
 				18C99A03234EE52D003EB4B0 /* LaunchScreen.storyboard */,
 				18C99A06234EE52D003EB4B0 /* Info.plist */,
 			);
 			path = "Sweat App";
+			sourceTree = "<group>";
+		};
+		7B2C1024F2221202101572A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC0017CFA249C75D1F41A54F /* Pods-Sweat App.debug.xcconfig */,
+				E956F9B5351E1F06309B98BE /* Pods-Sweat App.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABEC25083547DA568ED304DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC6FE04FC948E706A591BA /* Pods_Sweat_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C99A09234EE52D003EB4B0 /* Build configuration list for PBXNativeTarget "Sweat App" */;
 			buildPhases = (
+				DA491744B8C74C2491C9923D /* [CP] Check Pods Manifest.lock */,
 				18C999F3234EE52C003EB4B0 /* Sources */,
 				18C999F4234EE52C003EB4B0 /* Frameworks */,
 				18C999F5234EE52C003EB4B0 /* Resources */,
+				C7BBB365FF4B8207B79D4343 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +175,57 @@
 			files = (
 				18C99A05234EE52D003EB4B0 /* LaunchScreen.storyboard in Resources */,
 				18C99A02234EE52D003EB4B0 /* Assets.xcassets in Resources */,
+				18043F5E234EE5CE00549F09 /* Montserrat-Bold.ttf in Resources */,
+				18043F53234EE5B500549F09 /* trainer-programs.json in Resources */,
+				18043F5D234EE5CE00549F09 /* OpenSans-Bold.ttf in Resources */,
+				18043F5F234EE5CE00549F09 /* OpenSans-Semibold.ttf in Resources */,
 				18C99A00234EE52C003EB4B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7BBB365FF4B8207B79D4343 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sweat App/Pods-Sweat App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sweat App/Pods-Sweat App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sweat App/Pods-Sweat App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA491744B8C74C2491C9923D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sweat App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18C999F3234EE52C003EB4B0 /* Sources */ = {
@@ -136,7 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C999FD234EE52C003EB4B0 /* ViewController.swift in Sources */,
+				18043F58234EE5C000549F09 /* WorkoutTVC.swift in Sources */,
+				18043F57234EE5C000549F09 /* WorkoutModel.swift in Sources */,
 				18C999FB234EE52C003EB4B0 /* AppDelegate.swift in Sources */,
+				18043F52234EE5B500549F09 /* UIViewX.swift in Sources */,
+				18043F59234EE5C000549F09 /* EquipmentCVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,17 +381,20 @@
 		};
 		18C99A0A234EE52D003EB4B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0017CFA249C75D1F41A54F /* Pods-Sweat App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = RSWZ8MVF9V;
 				INFOPLIST_FILE = "Sweat App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sachtech.Sweat-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachtech.sweat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sweat Dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +402,20 @@
 		};
 		18C99A0B234EE52D003EB4B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E956F9B5351E1F06309B98BE /* Pods-Sweat App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = RSWZ8MVF9V;
 				INFOPLIST_FILE = "Sweat App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sachtech.Sweat-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachtech.sweat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sweat Dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

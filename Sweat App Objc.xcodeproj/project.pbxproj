@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,17 @@
 		185EF940234F354800EA8AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185EF93F234F354800EA8AE2 /* Assets.xcassets */; };
 		185EF943234F354800EA8AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185EF941234F354800EA8AE2 /* LaunchScreen.storyboard */; };
 		185EF946234F354800EA8AE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EF945234F354800EA8AE2 /* main.m */; };
+		185EF950234F35F800EA8AE2 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 185EF94D234F35F800EA8AE2 /* OpenSans-Semibold.ttf */; };
+		185EF951234F35F800EA8AE2 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 185EF94E234F35F800EA8AE2 /* OpenSans-Bold.ttf */; };
+		185EF952234F35F800EA8AE2 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 185EF94F234F35F800EA8AE2 /* Montserrat-Bold.ttf */; };
+		185EF955234F3D2500EA8AE2 /* DynamicCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EF954234F3D2500EA8AE2 /* DynamicCollectionView.m */; };
+		185EF958234F3FEE00EA8AE2 /* WorkoutModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 185EF957234F3FEE00EA8AE2 /* WorkoutModel.h */; };
+		185EF95C234F55FD00EA8AE2 /* trainer-programs.json in Resources */ = {isa = PBXBuildFile; fileRef = 185EF95B234F55FD00EA8AE2 /* trainer-programs.json */; };
+		185EF95E234F571700EA8AE2 /* WorkoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EF95D234F571700EA8AE2 /* WorkoutModel.m */; };
+		185EF962234F5ED700EA8AE2 /* WorkoutTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EF961234F5ED700EA8AE2 /* WorkoutTVC.m */; };
+		18BE2ED0235050B500BD98BE /* TagsCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2ECF235050B500BD98BE /* TagsCVC.m */; };
+		18BE2ED223507C4300BD98BE /* CenteredFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2ED123507C4300BD98BE /* CenteredFlowLayout.m */; };
+		2922088A911F0D31E34BF20D /* Pods_Sweat_App_Objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEB0544E6395C24C4F8F2AB /* Pods_Sweat_App_Objc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,22 @@
 		185EF942234F354800EA8AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185EF944234F354800EA8AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185EF945234F354800EA8AE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185EF94D234F35F800EA8AE2 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		185EF94E234F35F800EA8AE2 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		185EF94F234F35F800EA8AE2 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		185EF954234F3D2500EA8AE2 /* DynamicCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCollectionView.m; sourceTree = "<group>"; };
+		185EF957234F3FEE00EA8AE2 /* WorkoutModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkoutModel.h; sourceTree = "<group>"; };
+		185EF95B234F55FD00EA8AE2 /* trainer-programs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "trainer-programs.json"; sourceTree = "<group>"; };
+		185EF95D234F571700EA8AE2 /* WorkoutModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkoutModel.m; sourceTree = "<group>"; };
+		185EF960234F5ED700EA8AE2 /* WorkoutTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkoutTVC.h; sourceTree = "<group>"; };
+		185EF961234F5ED700EA8AE2 /* WorkoutTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkoutTVC.m; sourceTree = "<group>"; };
+		18BE2ECE235050B500BD98BE /* TagsCVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagsCVC.h; sourceTree = "<group>"; };
+		18BE2ECF235050B500BD98BE /* TagsCVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsCVC.m; sourceTree = "<group>"; };
+		18BE2ED123507C4300BD98BE /* CenteredFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenteredFlowLayout.m; sourceTree = "<group>"; };
+		18BE2ED323507C6C00BD98BE /* CenteredFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenteredFlowLayout.h; sourceTree = "<group>"; };
+		9ADA15EF2DE2BB6FEBC8BDC2 /* Pods-Sweat App Objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweat App Objc.release.xcconfig"; path = "Target Support Files/Pods-Sweat App Objc/Pods-Sweat App Objc.release.xcconfig"; sourceTree = "<group>"; };
+		EEEB0544E6395C24C4F8F2AB /* Pods_Sweat_App_Objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sweat_App_Objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDDA894F01F3995B9C15D92 /* Pods-Sweat App Objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweat App Objc.debug.xcconfig"; path = "Target Support Files/Pods-Sweat App Objc/Pods-Sweat App Objc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2922088A911F0D31E34BF20D /* Pods_Sweat_App_Objc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +72,8 @@
 			children = (
 				185EF935234F354800EA8AE2 /* Sweat App Objc */,
 				185EF934234F354800EA8AE2 /* Products */,
+				B36C9376597E86AC6DA3464C /* Pods */,
+				C8F72AF13F22DA4649BC4647 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +88,11 @@
 		185EF935234F354800EA8AE2 /* Sweat App Objc */ = {
 			isa = PBXGroup;
 			children = (
+				185EF95F234F5EC300EA8AE2 /* Cells */,
+				185EF95B234F55FD00EA8AE2 /* trainer-programs.json */,
+				185EF956234F3FDA00EA8AE2 /* Models */,
+				185EF953234F3CFF00EA8AE2 /* CustomCollectionView */,
+				185EF94C234F35EF00EA8AE2 /* Fonts */,
 				185EF936234F354800EA8AE2 /* AppDelegate.h */,
 				185EF937234F354800EA8AE2 /* AppDelegate.m */,
 				185EF939234F354800EA8AE2 /* ViewController.h */,
@@ -71,6 +106,63 @@
 			path = "Sweat App Objc";
 			sourceTree = "<group>";
 		};
+		185EF94C234F35EF00EA8AE2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				185EF94F234F35F800EA8AE2 /* Montserrat-Bold.ttf */,
+				185EF94E234F35F800EA8AE2 /* OpenSans-Bold.ttf */,
+				185EF94D234F35F800EA8AE2 /* OpenSans-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		185EF953234F3CFF00EA8AE2 /* CustomCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				185EF954234F3D2500EA8AE2 /* DynamicCollectionView.m */,
+			);
+			path = CustomCollectionView;
+			sourceTree = "<group>";
+		};
+		185EF956234F3FDA00EA8AE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				185EF957234F3FEE00EA8AE2 /* WorkoutModel.h */,
+				185EF95D234F571700EA8AE2 /* WorkoutModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		185EF95F234F5EC300EA8AE2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				185EF960234F5ED700EA8AE2 /* WorkoutTVC.h */,
+				185EF961234F5ED700EA8AE2 /* WorkoutTVC.m */,
+				18BE2ECE235050B500BD98BE /* TagsCVC.h */,
+				18BE2ECF235050B500BD98BE /* TagsCVC.m */,
+				18BE2ED123507C4300BD98BE /* CenteredFlowLayout.m */,
+				18BE2ED323507C6C00BD98BE /* CenteredFlowLayout.h */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B36C9376597E86AC6DA3464C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDA894F01F3995B9C15D92 /* Pods-Sweat App Objc.debug.xcconfig */,
+				9ADA15EF2DE2BB6FEBC8BDC2 /* Pods-Sweat App Objc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8F72AF13F22DA4649BC4647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB0544E6395C24C4F8F2AB /* Pods_Sweat_App_Objc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185EF949234F354800EA8AE2 /* Build configuration list for PBXNativeTarget "Sweat App Objc" */;
 			buildPhases = (
+				8F26FB8BDC045CE698013E7C /* [CP] Check Pods Manifest.lock */,
 				185EF92F234F354800EA8AE2 /* Sources */,
 				185EF930234F354800EA8AE2 /* Frameworks */,
 				185EF931234F354800EA8AE2 /* Resources */,
+				85C6145E9554F730E4985D61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,13 +222,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185EF950234F35F800EA8AE2 /* OpenSans-Semibold.ttf in Resources */,
 				185EF943234F354800EA8AE2 /* LaunchScreen.storyboard in Resources */,
+				185EF952234F35F800EA8AE2 /* Montserrat-Bold.ttf in Resources */,
 				185EF940234F354800EA8AE2 /* Assets.xcassets in Resources */,
+				185EF95C234F55FD00EA8AE2 /* trainer-programs.json in Resources */,
+				185EF951234F35F800EA8AE2 /* OpenSans-Bold.ttf in Resources */,
 				185EF93E234F354800EA8AE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85C6145E9554F730E4985D61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sweat App Objc/Pods-Sweat App Objc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sweat App Objc/Pods-Sweat App Objc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sweat App Objc/Pods-Sweat App Objc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F26FB8BDC045CE698013E7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sweat App Objc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		185EF92F234F354800EA8AE2 /* Sources */ = {
@@ -142,8 +282,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				185EF93B234F354800EA8AE2 /* ViewController.m in Sources */,
+				185EF958234F3FEE00EA8AE2 /* WorkoutModel.h in Sources */,
 				185EF946234F354800EA8AE2 /* main.m in Sources */,
+				185EF95E234F571700EA8AE2 /* WorkoutModel.m in Sources */,
+				185EF962234F5ED700EA8AE2 /* WorkoutTVC.m in Sources */,
+				185EF955234F3D2500EA8AE2 /* DynamicCollectionView.m in Sources */,
 				185EF938234F354800EA8AE2 /* AppDelegate.m in Sources */,
+				18BE2ED0235050B500BD98BE /* TagsCVC.m in Sources */,
+				18BE2ED223507C4300BD98BE /* CenteredFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,35 +429,42 @@
 		};
 		185EF94A234F354800EA8AE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFDDA894F01F3995B9C15D92 /* Pods-Sweat App Objc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = RSWZ8MVF9V;
 				INFOPLIST_FILE = "Sweat App Objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sachtech.Sweat-App-Objc";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachtech.sweat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sweat Dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 i386";
 			};
 			name = Debug;
 		};
 		185EF94B234F354800EA8AE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADA15EF2DE2BB6FEBC8BDC2 /* Pods-Sweat App Objc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = RSWZ8MVF9V;
 				INFOPLIST_FILE = "Sweat App Objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sachtech.Sweat-App-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachtech.sweat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sweat Dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 i386";
 			};
 			name = Release;
 		};

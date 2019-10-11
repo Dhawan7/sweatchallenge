@@ -1,0 +1,26 @@
+PODS:
+  - JSONModel (1.8.0)
+  - SDWebImage (5.2.2):
+    - SDWebImage/Core (= 5.2.2)
+  - SDWebImage/Core (5.2.2)
+  - YLProgressBar (3.11.0)
+
+DEPENDENCIES:
+  - JSONModel
+  - SDWebImage
+  - YLProgressBar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JSONModel
+    - SDWebImage
+    - YLProgressBar
+
+SPEC CHECKSUMS:
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  SDWebImage: 5fcdb02cc35e05fc35791ec514b191d27189f872
+  YLProgressBar: 0c0796a6e9b5e5d5040d15c8911e802b67ccb939
+
+PODFILE CHECKSUM: 267b1b91011ff03b2248b2bd1a6a6e05dc6eea84
+
+COCOAPODS: 1.7.5
